@@ -1,0 +1,8 @@
+rm -f *~ *.*~ *.o velha
+gcc -O3 -std=c99 -Wall -pedantic -c objetos.c -o objetos.o
+gcc -O3 -std=c99 -Wall -pedantic -c erros.c -o erros.o
+gcc -O3 -std=c99 -Wall -pedantic -c interface.c -o interface.o
+gcc -O3 -std=c99 -Wall -pedantic -c estrategia.c -o estrategia.o
+gcc -O3 -std=c99 -Wall -pedantic -c torneio.c -o torneio.o
+gcc -O3 -std=c99 -Wall -pedantic -c velha.c -o velha.o
+gcc -O3 objetos.o erros.o interface.o estrategia.o torneio.o velha.o -o velha

@@ -1,0 +1,8 @@
+Para compilar o programa na linha de comando do Linux, digite
+
+  make all
+
+Se o comando "make" nao estiver instalado no seu Linux, digite
+
+  ./Executar
+
